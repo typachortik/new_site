@@ -1,0 +1,243 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+}
+.font
+{
+	font-family: arial;
+}
+h1,h2,h3,h4,h5,h6
+{
+	color: rgb(255, 255, 255);
+	font-family: arial;
+	font-weight: 700;
+}
+p
+{
+	font-size: 1.3em;
+}
+section#header
+{
+	background: rgb(37, 37, 37);
+}
+header .container
+{
+	padding: 40px 0;
+}
+header .container .logo
+{
+	color: #b9352c;
+	font-family: arial;
+	font-size: 2em;
+	font-weight: 700;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+#slider
+{
+	margin-top: 50px;
+}
+#slider h2,#slider h3
+{
+	color: #fff;
+	font-family: arial;
+}
+.carousel-animate .carousel-indicators>li
+{
+	background-color: #b9352c;
+	border-color: #b9352c;
+	margin: 0 2px;
+	opacity: .7;
+}
+.carousel-animate .carousel-indicators>li.active
+{
+	height: 10px;
+	opacity: 1;
+	width: 10px;
+}
+.carousel-animate .hero
+{
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+	text-transform: uppercase;
+}
+.btn.btn-lg
+{
+	padding: 10px 40px;
+}
+.btn.btn-hero,.btn.btn-hero:focus,.btn.btn-hero:hover
+{
+	background-color: #b9352c;
+	color: #fff;
+	font-family: arial;
+	margin: 20px auto;
+	outline: 0;
+	text-transform: uppercase;
+}
+@media screen and (max-width:640px)
+{
+	.hero h1
+	{
+		font-size: 2em;
+	}
+}
+.carousel-fade .carousel-inner .item
+{
+	transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right,.carousel-fade .carousel-inner .item
+{
+	opacity: 0;
+}
+.carousel-fade .carousel-inner .active,.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right
+{
+	opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right,.carousel-fade .carousel-inner .next,.carousel-fade .carousel-inner .prev
+{
+	left: 0;
+	transform: translate3d(0,0,0);
+}
+.carousel-bg .carousel-inner .item
+{
+	background-color: #b9352c;
+	background-position: center;
+	background-size: cover;
+	min-height: 480px;
+}
+#advantage
+{
+	background: rgb(37, 37, 37);
+	margin-top: 40px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#advantage p
+{
+	color: rgb(255, 255, 255);
+	font-family: arial;
+	font-size: 1.6em;
+	font-weight: 700;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+#advantage .col-md-3
+{
+	padding: 50px 0;
+	transition: all 1s ease;
+}
+#advantage .col-md-3 img
+{
+	width: 50px;
+}
+#advantage .col-md-3:hover
+{
+	box-shadow: -2.2px -13.8px 73px 0 rgba(0,0,0,.29);
+}
+#about
+{
+	margin-bottom: 70px;
+	margin-top: 50px;
+}
+#about h1
+{
+	margin-bottom: 30px;
+}
+#about h1 span
+{
+	border-bottom: 5px solid #b9352c;
+}
+#about img
+{
+	padding-top: 30px;
+	width: 95%;
+}
+#about #btn-more
+{
+	background: 0 0;
+	border: 2px solid #b9352c;
+	border-radius: 5px;
+	color: #b9352c;
+	display: inline-block;
+	font: 700 18.5px 'Open Sans Bold',Arial,sans-serif;
+	letter-spacing: .5px;
+	line-height: 15px;
+	margin-top: 20px;
+	padding: 18px 60px;
+	text-decoration: none;
+	transition: background .6s,color .6s;
+}
+#about #btn-more:hover
+{
+	background: #b9352c;
+	color: rgb(255, 255, 255);
+}
+footer
+{
+	background: #313030;
+	padding: 45px 0 30px;
+}
+footer #copyright
+{
+	color: #b9352c;
+}
+footer #develop a
+{
+	color: #b9352c;
+}
+footer #develop a span
+{
+	color: #b9352c;
+}
+@media (min-width:0px) and (max-width:320px)
+{
+	header .logo
+	{
+		text-align: center;
+	}
+	header .phone
+	{
+		font-size: 2em!important;
+		text-align: center;
+	}
+	footer #develop
+	{
+		text-align: center;
+	}
+}
+@media (min-width:321px) and (max-width:480px)
+{
+	header .logo
+	{
+		text-align: center;
+	}
+	header .phone
+	{
+		font-size: 2em!important;
+		text-align: center;
+	}
+	footer #develop
+	{
+		text-align: center;
+	}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+	header .logo
+	{
+		text-align: center;
+	}
+	header .phone
+	{
+		font-size: 2em!important;
+		text-align: center;
+	}
+	footer #develop
+	{
+		text-align: center;
+	}
+}

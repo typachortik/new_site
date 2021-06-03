@@ -1,0 +1,17 @@
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1><span>Название товара</span></h1>
+        <p>
+          Описание товара
+        </p>
+        <a href="op.html" id="btn-more">Цена
+          ₽/кг</a>
+      </div>
+      <div class="col-md-6">
+        <img src="Путь к картинке товара" alt="">
+      </div>
+    </div>
+  </div>
+</section>
